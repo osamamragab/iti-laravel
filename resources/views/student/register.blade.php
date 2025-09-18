@@ -1,4 +1,4 @@
-@extends('layouts.bootStrap_log')
+@extends('layouts.bootstrap_log')
 
 @section('title', 'Student register')
 @section('content')

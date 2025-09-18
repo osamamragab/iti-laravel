@@ -1,4 +1,4 @@
-@extends('layouts.bootStrap_CDN')
+@extends('layouts.bootstrap_cdn')
 
 @section('title', 'Book Details')
 

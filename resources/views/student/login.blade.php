@@ -1,4 +1,4 @@
-@extends('layouts.bootStrap_log')
+@extends('layouts.bootstrap_log')
 
 @section('title', 'Student login')
 @section('content')
@@ -39,7 +39,7 @@
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10 d-flex justify-content-between">
                     <button type="submit" class="btn btn-success">Login</button>
-                    
+
                     <a href="{{ route('register') }}" class="btn btn-primary">Register</a>
                 </div>
             </div>

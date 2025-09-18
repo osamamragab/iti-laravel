@@ -1,4 +1,4 @@
-@extends('layouts.bootStrap_CDN')
+@extends('layouts.bootstrap_cdn')
 
 @section('title', 'User Profile')
 
@@ -15,7 +15,7 @@
   <h3>Previously Borrowed Books</h3>
   <div class="row">
     @foreach($borrowedBooks as $borrowed)
-      <div class="col-md-6 mb-4"> 
+      <div class="col-md-6 mb-4">
         <div class="card h-100">
           <div class="card-body">
             <h5 class="card-title">{{ $borrowed->book->title }}</h5>
