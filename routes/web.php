@@ -8,7 +8,11 @@ use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\AdminProfileController;
 use App\Http\Controllers\Admin\AdminController;
+use Illuminate\Support\Facades\Auth;
 
+Route::get("/", function () {
+    return redirect(Auth::check() ? "/user/books" : "/login");
+});
 
 
 // ----------------- Register -----------------
